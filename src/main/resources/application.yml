@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    host: 10.215.10.243
+    port: 5672
+    username: guest
+    password: guest
+
+
+server:
+  port: 8084
+  servlet:
+    context-path: /so
+
+
+
