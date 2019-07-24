@@ -11,6 +11,10 @@ import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;
 
+
+/**
+ * WebSocket
+ */
 @ServerEndpoint("/websocket/{sid}")
 @Component
 public class WebSocketServer {
